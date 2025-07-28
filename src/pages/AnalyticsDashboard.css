@@ -1,0 +1,39 @@
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+.summary-section,
+.month-section,
+.chart-section {
+  margin-bottom: 2rem;
+}
+
+input[type="month"] {
+  margin-left: 1rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+h3 {
+  color: #333;
+  margin-top: 1rem;
+}
+
+.chart-section {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
